@@ -1,0 +1,38 @@
+nav .header{
+    background-color: rgb(55, 230, 230);
+    line-height: 30px;
+    padding: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    /* overflow: hidden; */
+    background-color: #333;
+    /* border-radius: 125px; */
+    /* margin: 5px; */
+  }
+  
+  li {
+    float: right;
+    /* display: inline-block; */
+    background-color: black ;
+    border-radius: 5px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid rgb(206, 198, 198);
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
