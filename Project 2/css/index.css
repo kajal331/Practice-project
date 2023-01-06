@@ -1,0 +1,238 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo img {
+    height: 99px;
+    width: 110px;
+    margin: 9px 20px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+
+    /* by doing z-index: -1; the text will show ,which was hidden below the background */
+    z-index: -1;
+    position: absolute;
+
+    /* it will lighten the shade of background color */
+    opacity: 0.5;
+}
+#navbar{
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar li a {
+
+    /* text-decoration: none; in this the underline will remove */
+    text-decoration: none;
+
+    /* color: white; */
+    font-size: 30px;
+    margin: 23px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+
+}
+    #navbar ul li a:hover{
+        /* color: black; */
+        background-color: white;
+
+    }
+
+ul li {
+
+    /* list-style: none; in this the dot or circle before the text in li will remove */
+    list-style: none;
+    
+     border-radius: 3px;
+
+}
+
+.h1{
+    font-size: 40px;
+    margin: 10px;
+
+}
+.btn{
+    font-size: 30px;
+    border: 3px solid rgb(32, 71, 121);
+    border-radius: 10px;
+    background-color: cadetblue;
+    color: rgb(11, 14, 17);
+    margin: 15px;
+    padding: 9px 6px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(9, 117, 121);
+}
+.p1{
+    padding: 6px;
+    
+}
+#home{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 7px 9px; */
+    margin: 50px
+    /* height: 500px; */
+    /* line-height: 50px; */
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../9.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    /* by doing z-index: -1; the text will show ,which was hidden below the background */
+    z-index: -1;
+
+    /* it will lighten the shade of background color */
+    /* opacity: 0.9; */
+}
+#services{
+    /* display: flex; */
+   margin-top: 150px;
+   margin-bottom: 50px;
+    font-size: 60px;
+    justify-content: center;
+    text-align: center;
+ 
+}
+container{
+    display: flex;
+    justify-content: center;
+}
+
+.services{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 360px;
+    height: 250px;
+    padding: 25px;
+    margin: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(81, 88, 88);
+    opacity: 0.89;
+}
+.head img{
+    height :120px;
+    width: 160px;
+  
+}
+.para{
+    text-align: center;
+}
+.header{
+    margin: 20px;
+}
+hr{
+    margin-bottom: 20px;
+ 
+}
+.head1{
+       
+    margin-top: 30px;
+   margin-bottom: 10px;
+   font-size: 60px;
+   text-align: center;
+}
+.company img{
+    height: 206px;
+    width: 255px;
+    padding: 15px;
+    margin: 16px;
+   
+}
+#company{
+   display: flex;
+   justify-content: center;
+}
+#clients{
+    background-image: url(../bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    opacity: 0.79;
+}
+#footer{
+    height: 500px;
+    background-image: url(../12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 600px;
+    width: 100%; */
+    opacity: 0.95;
+}
+#footer div form{
+    display: flex;
+   
+}
+.head2 h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.form-group input{
+    /* display: flex; */
+    font-size: 30px;
+    padding: 8px 98px;
+    margin: 8px 9px;
+
+    border: 3px solid rgb(11, 11, 30);
+    border-radius: 18px;
+    background-color: rgb(229, 182, 239);
+    /* color: rgb(3, 2, 2); */
+}
+.form-group input:hover{
+    background-color: rgb(215, 155, 164);
+}
+input placeholder{
+    color: white;
+}
+#message{
+    height: 150px;
+}
