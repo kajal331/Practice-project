@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after psuedo selectors</title>
+</head>
+    <style>
+        header{
+            display: flex;
+            flex-direction: column;
+
+        }
+        body{
+            padding: 0px;
+            margin: 0px;
+            background-image: url(https://i.pngimg.me/thumb/f/720/unsplashMSN8TFhJ0is.jpg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
+           
+            
+            background-color: black;
+            color: white;
+        }
+        .navigation{
+            display: flex;
+           
+        }
+        li{
+            list-style: none;
+            padding: 20px;
+            font-size: 30px;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            /* border: 2px solid rgb(219, 85, 85); */
+            justify-content: center;
+            height: 350px;
+        }
+        /* section::before{
+            content:"this is a content"
+        } */
+        h1{
+            font-size: 3rem;
+        }
+
+        .navbar li:hover{
+             color: rgb(251, 142, 39);
+        }
+
+    
+    </style>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">HOME</li>
+                <li class="item">ABOUT</li>
+                <li class="item">SERVICES</li>
+                <li class="item">CONTACT US</li>
+            </ul>
+        </nav>
+    </header>
+
+        <section>
+            <h1>Welcome to coding world</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, suscipit. Provident commodi veniam iste nihil officiis dolores harum dignissimos quasi voluptatem, inventore nulla! Exercitationem, expedita suscipit molestiae aperiam nihil eos!
+            </p>
+
+
+        </section>
+
+        <hr>
+
+
+</body>
+
+</html>
